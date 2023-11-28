@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 def islower(c):
+    """
+    Returns True if c is lowercase Returns False otherwise
+    """
     return ord('a') <= ord(c) <= ord('z')
 print("a is {}".format("lower" if islower("a") else "upper"))
 print("H is {}".format("lower" if islower("H") else "upper"))
