@@ -4,7 +4,4 @@ def no_c(my_string):
     for char in my_string:
         if char.lower() != 'c':
             result += char
-    return result
-print(no_c("Best School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+    return new_string
