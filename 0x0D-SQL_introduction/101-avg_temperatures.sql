@@ -1,6 +1,6 @@
 -- A cript that displays the average temperature
 -- (Fahrenheit) by city ordered by temperature (descending).
-SELECT city, AVG((temperature - 32) / 1.8) AS avg_temp
-FROM your_table_name
+SELECT city, AVG(value) as avg_temp
+FROM temperatures
 GROUP BY city
 ORDER BY avg_temp DESC;
