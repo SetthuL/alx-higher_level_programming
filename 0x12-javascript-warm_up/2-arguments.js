@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const argv = process.argv.slice(2);
+const argv.length = process.argv.length(2);
 
 if (args.length === 0)
 {
