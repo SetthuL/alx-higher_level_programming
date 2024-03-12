@@ -11,4 +11,4 @@ let len = list.length - 1;
     len--;
   }
   return list;
-}
+};
