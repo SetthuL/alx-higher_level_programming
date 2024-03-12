@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-function reverseList(list) {
+exports.esrever = function (list) {
 let len = list.length - 1;
   let sl = 0;
   while ((len - sl) > 0) {
@@ -12,4 +12,3 @@ let len = list.length - 1;
   }
   return list;
 }
-module.exports = reverseList;
