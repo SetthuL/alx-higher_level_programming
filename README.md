@@ -1,1 +1,1 @@
-0x02. Python - import & modules
+0x13. JavaScript - Objects, Scopes and Closures
