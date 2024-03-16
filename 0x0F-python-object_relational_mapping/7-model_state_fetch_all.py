@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 """Start link class to table in database"""
+
 import sys
 from model_state import Base, State
 from sqlalchemy import (create_engine)
@@ -14,4 +15,4 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
     for instance in session.query(State).order_by(State.id):
-        print(f"{instance.id}: {instance.name}")
+        print(instance.id, instance.name, sep=": ")
